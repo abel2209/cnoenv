@@ -1,6 +1,6 @@
 import axios from "axios";
 import { envConfiguration } from "./EnvConfigurations";
-import AppConstant from "../AppConstant";
+import { HTTP_METHODS } from "../Constants";
 import { IsNetworkAvailble } from "./IsNetworkAvailble";
 import crashlytics from "@react-native-firebase/crashlytics";
 
@@ -59,7 +59,7 @@ class ApiManager {
       requestCount < concurrentRequestCount;
       requestCount++
     ) {
-      request.push(this.apiCall(" ", AppConstant.HTTP_METHODS.GET));
+      request.push(this.apiCall(" ", HTTP_METHODS.GET));
     }
     try {
       const response = await Promise.all(request);
