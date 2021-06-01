@@ -1,9 +1,8 @@
+import analytics from "@react-native-firebase/analytics";
 import React, { PureComponent } from "react";
 import { Button, Text, View } from "react-native";
-import HTTP_METHODS from "../Constants";
-import apiManager from "../Helper/ApiManager";
 import { envConfiguration } from "../Helper/EnvConfigurations";
-import analytics from "@react-native-firebase/analytics";
+import offlineStorage from "../Helper/Realm/OfflineStorage";
 
 class HomePage extends PureComponent {
   async CaptureScreenName() {
@@ -23,9 +22,21 @@ class HomePage extends PureComponent {
         <Text>{envConfiguration.api.host} </Text>
         <Button
           onPress={() => {
-            apiManager.apiCall("albums", HTTP_METHODS.GET);
+            offlineStorage.createLead("Lead", {
+              lead_name: "chintan",
+              lead_address: "mumbai",
+              opportunity: {
+                opp_name: "cg",
+              },
+            });
           }}
           title="huuu"
+        />
+        <Button
+          onPress={() => {
+            offlineStorage.deleteEntity('Lead');
+          }}
+          title="tttttt"
         />
       </View>
     );
