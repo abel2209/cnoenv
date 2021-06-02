@@ -1,81 +1,50 @@
 import Realm from "realm";
-import { Appointment, Contacts, Household, Lead, Opportunity } from "./Schema";
+import { RealmSchema } from "../../Constants";
+import {
+  AppointmentSchema,
+  ContactsSchema,
+  HouseholdSchema,
+  LeadSchema,
+  OpportunitySchema,
+} from "./Schema";
+import crashlytics from "@react-native-firebase/crashlytics";
 
 class OfflineStorage {
-    realm = new Realm({
-        path: "realmT4.realm",
-        schema: [Lead, Opportunity, Appointment, Contacts, Household],
-        schemaVersion: 0.2
-    });
+  realm = new Realm({
+    path: "Oscr",
+    schema: [
+      LeadSchema,
+      OpportunitySchema,
+      AppointmentSchema,
+      ContactsSchema,
+      HouseholdSchema,
+    ],
+    schemaVersion: 0.1,
+  });
 
+  async getAllEntities(schema: string) {
+    return this.realm.objects(schema);
+  }
 
-    async getAllEntities() {
-        return this.realm.objects('LEAD');
+  async createEntity(schema: string, data: any) {
+    try {
+      this.realm.write(async () => {
+        await this.realm.create(schema, data);
+      });
+    } catch (err) {
+      crashlytics().log(JSON.stringify(err));
     }
+  }
 
-    async createSchema(schema: any, data: any) {
-        try {
-            this.realm.write(() => {
-                this.realm.create(schema, data);
-            });
-        }
-        catch (err) {
-
-        }
+  async deleteEntity(schema: string) {
+    try {
+      this.realm.write(() => {
+        this.realm.delete(this.realm.objects(schema));
+      });
+    } catch (err) {
+      crashlytics().log(JSON.stringify(err));
     }
-    async createLead(schema: any, data: any) {
-        try {
-            this.realm.write(() => {
-                let temp = this.realm.create(schema, data);
-                let readObj = this.realm.objects(schema);
-            });
-        }
-        catch (err) {
-
-        }
-    }
-
-    async createOpportunity(data: any) {
-        try {
-            this.realm.write(() => {
-                this.realm.create('OPPORTUNITTY', {
-                    lead_id: data.lead_id,
-                    opp_name: data.opp_name,
-                });
-            });
-        }
-        catch (err) {
-
-        }
-    }
-
-    async createAppontment(data: any) {
-        try {
-            this.realm.write(() => {
-                this.realm.create('APPOINTMENT', {
-                    lead_id: data.lead_id,
-                    date: data.date,
-                    start_time: data.start_time,
-                    end_time: data.end_time
-                });
-            });
-        }
-        catch (err) {
-
-        }
-    }
-
-    async deleteEntity(schema: any) {
-        try {
-            this.realm.write(() => {
-                this.realm.delete(this.realm.objects(schema));
-            });
-            let readObj = this.realm.objects(schema);
-        }
-        catch (err) {
-
-        }
-    }
+  }
 }
 
 const offlineStorage = new OfflineStorage();

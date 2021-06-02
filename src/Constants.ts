@@ -9,3 +9,11 @@ export const HTTP_METHODS = {
 export const ErrorMessages = {
   NO_CONNECTIVITY: "Please check your internet connection!",
 };
+
+export const RealmSchema = {
+  LeadSchema: "Lead",
+  OpportunitySchema: "Oppurtunity",
+  AppointmentSchema: "Appointment",
+  ContactsSchema: "Contacts",
+  HouseholdSchema: "Household",
+};

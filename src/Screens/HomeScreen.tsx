@@ -18,11 +18,10 @@ class HomePage extends PureComponent {
   render() {
     return (
       <View>
-        <Text>eeeeeee </Text>
         <Text>{envConfiguration.api.host} </Text>
         <Button
           onPress={() => {
-            offlineStorage.createLead("Lead", {
+            offlineStorage.createEntity("Lead", {
               lead_name: "chintan",
               lead_address: "mumbai",
               opportunity: {
@@ -30,13 +29,13 @@ class HomePage extends PureComponent {
               },
             });
           }}
-          title="huuu"
+          title="ADD RECORD"
         />
         <Button
           onPress={() => {
-            offlineStorage.deleteEntity('Lead');
+            offlineStorage.deleteEntity("Lead");
           }}
-          title="tttttt"
+          title="DELETE RECORD"
         />
       </View>
     );
