@@ -23,6 +23,8 @@ DerivedData
 project.xcworkspace
 # Cocoapods
 Pods/
+*.lock
+*.json
 
 # Android/IntelliJ
 #
