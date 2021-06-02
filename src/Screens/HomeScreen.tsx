@@ -33,7 +33,14 @@ class HomePage extends PureComponent {
         />
         <Button
           onPress={() => {
-            offlineStorage.deleteEntity("Lead");
+            // offlineStorage.deleteEntity("Lead");
+            offlineStorage.createEntity("Lead", {
+              lead_name: "chintan",
+              lead_address: "mumbai",
+              opportunity: {
+                opp_name: "cg",
+              },
+            });
           }}
           title="DELETE RECORD"
         />

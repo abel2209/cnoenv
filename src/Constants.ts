@@ -12,7 +12,7 @@ export const ErrorMessages = {
 
 export const RealmSchema = {
   LeadSchema: "Lead",
-  OpportunitySchema: "Oppurtunity",
+  OpportunitySchema: "Opportunity",
   AppointmentSchema: "Appointment",
   ContactsSchema: "Contacts",
   HouseholdSchema: "Household",

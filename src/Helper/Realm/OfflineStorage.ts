@@ -1,5 +1,4 @@
 import Realm from "realm";
-import { RealmSchema } from "../../Constants";
 import {
   AppointmentSchema,
   ContactsSchema,
@@ -10,8 +9,21 @@ import {
 import crashlytics from "@react-native-firebase/crashlytics";
 
 class OfflineStorage {
+  base64ToArrayBuffer() {
+    //TODO: Store the key in keychain
+    var binary_string =
+      "N60LgDmG4CuwC9Gb//+EDlTSGpYwA1V83XDepAT+Dv/wFZL1cqvuIAZjbzw==wer";
+    var len = binary_string.length;
+    var bytes = new Uint8Array(len);
+    for (var i = 0; i < len; i++) {
+      bytes[i] = binary_string.charCodeAt(i);
+    }
+    return bytes.buffer;
+  }
+  //https://www.convertstring.com/EncodeDecode/HexEncode pass encryption key to URL to get hexcode
+  // use it to open Relam
   realm = new Realm({
-    path: "Oscr",
+    encryptionKey: this.base64ToArrayBuffer(),
     schema: [
       LeadSchema,
       OpportunitySchema,

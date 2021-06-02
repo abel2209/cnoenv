@@ -6,7 +6,7 @@ export const LeadSchema = {
     lead_name: "string",
     lead_address: "string",
     // contacts: 'CONTACTS?',
-    opportunity: "Oppurtunity",
+    opportunity: "Opportunity",
     // appointment: 'APPOINTMENT[]?',
     // task: 'TASK[]?'
   },
