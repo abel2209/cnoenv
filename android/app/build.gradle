@@ -136,7 +136,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.oscr_base"
+        applicationId "com.oscr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

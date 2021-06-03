@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:206306307510:android:db6a6e309d10d26318a517",
+        "mobilesdk_app_id": "1:206306307510:android:bcc8f8eea5e82eae18a517",
         "android_client_info": {
-          "package_name": "com.oscr_base"
+          "package_name": "com.oscr"
         }
       },
       "oauth_client": [
@@ -29,6 +29,13 @@
             {
               "client_id": "206306307510-7v5vh8b029nm0639kgte51jgn5oopm6e.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "206306307510-2ov2nr74ir4an7a6ctdh4safp7edn0ru.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.oscr.com"
+              }
             }
           ]
         }

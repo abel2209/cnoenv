@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.oscr_base">
+  package="com.oscr">
 
     <uses-permission android:name="android.permission.INTERNET" />
 

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* OSCR_BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OSCR_BaseTests.m */; };
+		00E356F31AD99517003FC87E /* OSCRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* OSCRTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3667E16A2660FD7A00A7042A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3667E1692660FD7A00A7042A /* GoogleService-Info.plist */; };
-		43E9553F4BD745D327C14422 /* libPods-OSCR_Base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F52C1C713F89A37BDCC80C14 /* libPods-OSCR_Base.a */; };
+		43E9553F4BD745D327C14422 /* libPods-OSCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F52C1C713F89A37BDCC80C14 /* libPods-OSCR.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BE0EA64CB45DC9E81391C85D /* libPods-OSCR_Base-OSCR_BaseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C765F2AE4CC1416B268EC63 /* libPods-OSCR_Base-OSCR_BaseTests.a */; };
+		BE0EA64CB45DC9E81391C85D /* libPods-OSCR-OSCRTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C765F2AE4CC1416B268EC63 /* libPods-OSCR-OSCRTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,29 +23,29 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = OSCR_Base;
+			remoteInfo = OSCR;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* OSCR_BaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCR_BaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* OSCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* OSCR_BaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCR_BaseTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* OSCR_Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSCR_Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OSCR_Base/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OSCR_Base/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OSCR_Base/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OSCR_Base/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OSCR_Base/main.m; sourceTree = "<group>"; };
-		1A144C44F826BBB188A5E4B3 /* Pods-OSCR_Base-OSCR_BaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR_Base-OSCR_BaseTests.debug.xcconfig"; path = "Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* OSCRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCRTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* OSCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = OSCR/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = OSCR/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = OSCR/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = OSCR/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OSCR/main.m; sourceTree = "<group>"; };
+		1A144C44F826BBB188A5E4B3 /* Pods-OSCR-OSCRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR-OSCRTests.debug.xcconfig"; path = "Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3667E1692660FD7A00A7042A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		6C765F2AE4CC1416B268EC63 /* libPods-OSCR_Base-OSCR_BaseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSCR_Base-OSCR_BaseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OSCR_Base/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8EE813ECA460A1064E77CABC /* Pods-OSCR_Base-OSCR_BaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR_Base-OSCR_BaseTests.release.xcconfig"; path = "Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		A2DFB8182450627F57858FEF /* Pods-OSCR_Base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR_Base.debug.xcconfig"; path = "Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base.debug.xcconfig"; sourceTree = "<group>"; };
+		6C765F2AE4CC1416B268EC63 /* libPods-OSCR-OSCRTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSCR-OSCRTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = OSCR/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EE813ECA460A1064E77CABC /* Pods-OSCR-OSCRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR-OSCRTests.release.xcconfig"; path = "Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2DFB8182450627F57858FEF /* Pods-OSCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR.debug.xcconfig"; path = "Target Support Files/Pods-OSCR/Pods-OSCR.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F52C1C713F89A37BDCC80C14 /* libPods-OSCR_Base.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSCR_Base.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC4584E912F9D9193B11C5C /* Pods-OSCR_Base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR_Base.release.xcconfig"; path = "Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base.release.xcconfig"; sourceTree = "<group>"; };
+		F52C1C713F89A37BDCC80C14 /* libPods-OSCR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSCR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC4584E912F9D9193B11C5C /* Pods-OSCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSCR.release.xcconfig"; path = "Target Support Files/Pods-OSCR/Pods-OSCR.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0EA64CB45DC9E81391C85D /* libPods-OSCR_Base-OSCR_BaseTests.a in Frameworks */,
+				BE0EA64CB45DC9E81391C85D /* libPods-OSCR-OSCRTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,20 +61,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43E9553F4BD745D327C14422 /* libPods-OSCR_Base.a in Frameworks */,
+				43E9553F4BD745D327C14422 /* libPods-OSCR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* OSCR_BaseTests */ = {
+		00E356EF1AD99517003FC87E /* OSCRTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* OSCR_BaseTests.m */,
+				00E356F21AD99517003FC87E /* OSCRTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = OSCR_BaseTests;
+			path = OSCRTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -85,7 +85,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* OSCR_Base */ = {
+		13B07FAE1A68108700A75B9A /* OSCR */ = {
 			isa = PBXGroup;
 			children = (
 				3667E1692660FD7A00A7042A /* GoogleService-Info.plist */,
@@ -96,15 +96,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = OSCR_Base;
+			name = OSCR;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				F52C1C713F89A37BDCC80C14 /* libPods-OSCR_Base.a */,
-				6C765F2AE4CC1416B268EC63 /* libPods-OSCR_Base-OSCR_BaseTests.a */,
+				F52C1C713F89A37BDCC80C14 /* libPods-OSCR.a */,
+				6C765F2AE4CC1416B268EC63 /* libPods-OSCR-OSCRTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +119,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* OSCR_Base */,
+				13B07FAE1A68108700A75B9A /* OSCR */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* OSCR_BaseTests */,
+				00E356EF1AD99517003FC87E /* OSCRTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E0EAD472DEEB0846AB809613 /* Pods */,
@@ -134,8 +134,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* OSCR_Base.app */,
-				00E356EE1AD99517003FC87E /* OSCR_BaseTests.xctest */,
+				13B07F961A680F5B00A75B9A /* OSCR.app */,
+				00E356EE1AD99517003FC87E /* OSCRTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,10 +143,10 @@
 		E0EAD472DEEB0846AB809613 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A2DFB8182450627F57858FEF /* Pods-OSCR_Base.debug.xcconfig */,
-				FAC4584E912F9D9193B11C5C /* Pods-OSCR_Base.release.xcconfig */,
-				1A144C44F826BBB188A5E4B3 /* Pods-OSCR_Base-OSCR_BaseTests.debug.xcconfig */,
-				8EE813ECA460A1064E77CABC /* Pods-OSCR_Base-OSCR_BaseTests.release.xcconfig */,
+				A2DFB8182450627F57858FEF /* Pods-OSCR.debug.xcconfig */,
+				FAC4584E912F9D9193B11C5C /* Pods-OSCR.release.xcconfig */,
+				1A144C44F826BBB188A5E4B3 /* Pods-OSCR-OSCRTests.debug.xcconfig */,
+				8EE813ECA460A1064E77CABC /* Pods-OSCR-OSCRTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* OSCR_BaseTests */ = {
+		00E356ED1AD99517003FC87E /* OSCRTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OSCR_BaseTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OSCRTests" */;
 			buildPhases = (
 				F76500F2992722A6EA6C88E3 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = OSCR_BaseTests;
-			productName = OSCR_BaseTests;
-			productReference = 00E356EE1AD99517003FC87E /* OSCR_BaseTests.xctest */;
+			name = OSCRTests;
+			productName = OSCRTests;
+			productReference = 00E356EE1AD99517003FC87E /* OSCRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* OSCR_Base */ = {
+		13B07F861A680F5B00A75B9A /* OSCR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OSCR_Base" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OSCR" */;
 			buildPhases = (
 				6371FC03911AC0B4CFCF86F3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -194,9 +194,9 @@
 			);
 			dependencies = (
 			);
-			name = OSCR_Base;
-			productName = OSCR_Base;
-			productReference = 13B07F961A680F5B00A75B9A /* OSCR_Base.app */;
+			name = OSCR;
+			productName = OSCR;
+			productReference = 13B07F961A680F5B00A75B9A /* OSCR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -216,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OSCR_Base" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OSCR" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -229,8 +229,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* OSCR_Base */,
-				00E356ED1AD99517003FC87E /* OSCR_BaseTests */,
+				13B07F861A680F5B00A75B9A /* OSCR */,
+				00E356ED1AD99517003FC87E /* OSCRTests */,
 			);
 		};
 /* End PBXProject section */
@@ -276,15 +276,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6240E66F0B130447B077BCFA /* [CP] Copy Pods Resources */ = {
@@ -293,15 +293,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6371FC03911AC0B4CFCF86F3 /* [CP] Check Pods Manifest.lock */ = {
@@ -319,7 +319,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OSCR_Base-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OSCR-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -359,15 +359,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base-OSCR_BaseTests/Pods-OSCR_Base-OSCR_BaseTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR-OSCRTests/Pods-OSCR-OSCRTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA5D7365A4C96E10B796A9DF /* [CP] Copy Pods Resources */ = {
@@ -376,15 +376,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR_Base/Pods-OSCR_Base-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OSCR/Pods-OSCR-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F76500F2992722A6EA6C88E3 /* [CP] Check Pods Manifest.lock */ = {
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OSCR_Base-OSCR_BaseTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OSCR-OSCRTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -435,7 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* OSCR_BaseTests.m in Sources */,
+				00E356F31AD99517003FC87E /* OSCRTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +453,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* OSCR_Base */;
+			target = 13B07F861A680F5B00A75B9A /* OSCR */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,14 +461,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A144C44F826BBB188A5E4B3 /* Pods-OSCR_Base-OSCR_BaseTests.debug.xcconfig */;
+			baseConfigurationReference = 1A144C44F826BBB188A5E4B3 /* Pods-OSCR-OSCRTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = OSCR_BaseTests/Info.plist;
+				INFOPLIST_FILE = OSCRTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,17 +482,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSCR_Base.app/OSCR_Base";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSCR.app/OSCR";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8EE813ECA460A1064E77CABC /* Pods-OSCR_Base-OSCR_BaseTests.release.xcconfig */;
+			baseConfigurationReference = 8EE813ECA460A1064E77CABC /* Pods-OSCR-OSCRTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = OSCR_BaseTests/Info.plist;
+				INFOPLIST_FILE = OSCRTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -506,19 +506,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSCR_Base.app/OSCR_Base";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSCR.app/OSCR";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2DFB8182450627F57858FEF /* Pods-OSCR_Base.debug.xcconfig */;
+			baseConfigurationReference = A2DFB8182450627F57858FEF /* Pods-OSCR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = OSCR_Base/Info.plist;
+				INFOPLIST_FILE = OSCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -529,7 +529,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = OSCR_Base;
+				PRODUCT_NAME = OSCR;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -538,12 +538,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC4584E912F9D9193B11C5C /* Pods-OSCR_Base.release.xcconfig */;
+			baseConfigurationReference = FAC4584E912F9D9193B11C5C /* Pods-OSCR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = OSCR_Base/Info.plist;
+				INFOPLIST_FILE = OSCR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +554,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = OSCR_Base;
+				PRODUCT_NAME = OSCR;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -686,7 +686,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OSCR_BaseTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "OSCRTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -695,7 +695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OSCR_Base" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "OSCR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -704,7 +704,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OSCR_Base" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "OSCR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
