@@ -20,7 +20,7 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-
+apply pugin: 'base'
 allprojects {
     repositories {
         mavenLocal()
