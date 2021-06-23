@@ -20,7 +20,7 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
-apply pugin: 'base'
+
 allprojects {
     repositories {
         mavenLocal()
@@ -38,7 +38,4 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
     
-}
-    task clean(type: Delete) {
-    delete rootProject.buildDir
 }
